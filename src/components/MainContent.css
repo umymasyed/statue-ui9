@@ -1,0 +1,41 @@
+.main-content {
+    position: relative;
+    flex: 1;
+    background-color: #f3f4f6;
+  }
+  
+  .background-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(135deg, #707072, #030303);
+  }
+  
+  .artifact-container {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .artifact-image {
+    width: 400px;
+    height: 700px;
+    object-fit: contain;
+  }
+  
+  @media (min-width: 768px) {
+    .artifact-image {
+      width: 350px;
+      height: 580px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .artifact-image {
+      width: 400px;
+      height: 650px;
+    }
+  }

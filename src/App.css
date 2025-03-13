@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 30;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.chevron {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.chevron.rotate {
+  transform: rotate(180deg);
+}

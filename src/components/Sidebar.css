@@ -1,0 +1,173 @@
+.sidebar {
+    background-color: #cfcfcf;
+    z-index: 20;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    padding: 1.5rem;
+    height: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      width: 280px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .sidebar {
+      width: 320px;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .close-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+  }
+  
+  .close-button {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .artifact-title {
+    color: #374151;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    margin-bottom: 1rem;
+  }
+  
+  .social-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-button {
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .social-button:hover {
+    background-color: #bdbdc4;
+  }
+  
+  .icon {
+    color: #6b7280;
+    font-size: 1.25rem;
+  }
+  
+  .count {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+  }
+  
+  .details-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .details-container p {
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin: 0.25rem 0;
+  }
+  
+  .label {
+    font-weight: 500;
+  }
+  
+  .description-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .description-title {
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description-text {
+    font-size: 0.875rem;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  
+  .read-more {
+    font-size: 0.75rem;
+    color: #b48a51;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .arrow {
+    margin-right: 0.25rem;
+  }
+  
+  .action-buttons {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .add-button {
+    flex: 1;
+    background-color: #b46913;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #b45309;
+  }
+  
+  .souvenir-button {
+    flex: 1;
+    background-color: rgba(250, 247, 247, 0.914);
+    color: #d97706;
+    border: 1px solid #d97706;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .souvenir-button:hover {
+    background-color: #fff7ed;
+  }
